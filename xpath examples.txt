@@ -1,0 +1,49 @@
+//tagname[@attribute='Value']
+input[id='user-message']
+//tag[contains(@attribute, 'value')]
+input[id*='er-messa']
+
+//tag[text()='text value']-- complete text
+
+//tagname[contains(text(),'value')] -- partial text
+
+//tag[starts-with(@attribute, 'value')] -- value starts with a particular text
+
+input[id^='user']
+
+https://github.com/
+
+
+
+
+
+
+
+//tag[XPath Statement-1 or XPath Statement-2]  -- uses any one xpath for locating the element
+
+//tag[XPath Statement-1 and XPath Statement-2] -- uses both xpath for locating the element
+
+
+
+Example: //input[@name='my-range']//ancestor::div[3] -- to find the ancestor element with a particular tag(div) for specfic element (input[@name='my-range'])
+
+
+Example : //div[@class='fusion-sliding-bar-wrapper']//following::section
+
+//input[@name='my-colors']//following::input
+
+
+Example: //nav[@class='fusion-main-menu']//ul[@id='menu-main']/child::li
+
+//label[@class='form-label w-100'][2]//child::input
+
+
+Example: //div[@id=’wrapper’]/div[@class=’fusion-sliding-bar-wrapper’]//preceding::li
+
+Example: //*[@class=’col-md-6 text-left’]/child::div[2]//*[@class=’panel-body’]//following-sibling::li
+
+Example: //nav[@class=’fusion-main-menu’]//*[@id=’menu-main’]//descendant::li
+
+Example: .//*[@id=’get-input’]/button//parent::form
+
+

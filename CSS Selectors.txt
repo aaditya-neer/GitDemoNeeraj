@@ -1,0 +1,73 @@
+1) Using Absolute Path CSS Selector
+
+Syntax: form>div>input
+
+2) Using Non-Absolute Path CSS Selector
+
+Syntax: form .form-group #user-message
+
+3) Using Tag Name CSS Selector in Selenium
+
+4) Using Tag & Attribute & Value Trio
+
+Syntax: input[id='user-message']
+
+5) Using Containing Text of an Attribute
+
+Syntax: input[id*='er-messa']
+
+6) Using Starting Text of an Attribute
+
+Syntax: input[id^=’user’]
+
+7) Using Ending Text of an Attribute
+
+Syntax: input[id$=’message’]
+
+8) Using Comma Operator to Implement OR Operation
+
+Syntax: form#get-input,input#user-message
+
+9) Using Tag and ID CSS Selector in Selenium
+
+Syntax: input#user-message
+
+10) Using Tag and Class CSS Selector in Selenium
+
+Syntax: input.form-control
+
+11) Using first-of-type CSS Selector in Selenium
+
+Syntax: .tree-branch>ul>li:first-of-type
+
+12) Using last-of-type CSS Selector in Selenium
+
+Syntax: .tree-branch>ul>li:first-of-type
+
+Tag:nth-last-of-type(n)
+Tag:nth-last-child(n) 
+
+13) Using *:last-of-type CSS Selector in Selenium
+
+Syntax: .tree-branch>ul>*:last-of-type (Selects the last child of parent tag “ul”.)
+
+14) Using tag:nth-of-type(n) CSS Selector in Selenium
+
+Syntax: .tree-branch>ul>li:nth-of-type(3) (Selects 3rd li element.)
+
+15) Using tag:nth-child(n) CSS Selector in Selenium
+
+Syntax: .tree-branch>ul>li:nth-child(3) (It will select the nth child.)
+
+16) Using Sibling “+” Operator CSS Selector in Selenium
+
+Syntax: li#mercedes + li
+
+17) Exclude a CSS Class Name in Selenium CSS Locators
+
+.btn.btn-info.pull-right:not(.xs-mt-0)
+
+
+
+
+
