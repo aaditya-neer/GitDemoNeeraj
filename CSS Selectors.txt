@@ -18,11 +18,11 @@ Syntax: input[id*='er-messa']
 
 6) Using Starting Text of an Attribute
 
-Syntax: input[id^=’user’]
+Syntax: input[id^=â€™userâ€™]
 
 7) Using Ending Text of an Attribute
 
-Syntax: input[id$=’message’]
+Syntax: input[id$=â€™messageâ€™]
 
 8) Using Comma Operator to Implement OR Operation
 
@@ -49,7 +49,7 @@ Tag:nth-last-child(n)
 
 13) Using *:last-of-type CSS Selector in Selenium
 
-Syntax: .tree-branch>ul>*:last-of-type (Selects the last child of parent tag “ul”.)
+Syntax: .tree-branch>ul>*:last-of-type (Selects the last child of parent tag â€œulâ€�.)
 
 14) Using tag:nth-of-type(n) CSS Selector in Selenium
 
@@ -59,7 +59,7 @@ Syntax: .tree-branch>ul>li:nth-of-type(3) (Selects 3rd li element.)
 
 Syntax: .tree-branch>ul>li:nth-child(3) (It will select the nth child.)
 
-16) Using Sibling “+” Operator CSS Selector in Selenium
+16) Using Sibling â€œ+â€� Operator CSS Selector in Selenium
 
 Syntax: li#mercedes + li
 
